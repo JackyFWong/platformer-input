@@ -3,7 +3,8 @@ import sys
 
 # set up regular expressions
 rx_dict = {
-	'frame_in': re.compile(r'(\d+ .)\n')
+	'comment': re.compile(r'//(.+)\n'),
+	'frame_in': re.compile(r'(\d+ .)\n'),
 }
 
 def parse_line(line):
@@ -21,12 +22,14 @@ def parse_file(filepath):
 			key, match = parse_line(line)
 			if key == 'frame_in':
 				frame_in = match.group(1)
+				row = frame_in.split()
+				row = [ int(row[0]), row[1] ]
+			elif key == 'comment':
+				row = [ match.group(1) ]
 			else:
-				sys.exit('invalid input')
+				sys.exit('invalid input, not in correct format')
 
 			line = file_obj.readline()
-			row = frame_in.split()
-			row = [ int(row[0]), row[1] ]
 			data.append(row)
 
 	print(data)
