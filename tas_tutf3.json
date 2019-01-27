@@ -1,0 +1,84 @@
+[
+	{
+		"type" : "comment",
+		"cmd" : "this one works1"
+	},
+	{
+		"type" : "comment",
+		"cmd" : "level f3 begin"
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "a"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 10,
+				"key" : "d"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "k"
+			}
+		],
+		"num" : 385
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 180,
+				"key" : "s"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 15,
+				"key" : "a"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "comment",
+		"cmd" : "level f3 end"
+	}
+]

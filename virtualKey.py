@@ -5,8 +5,8 @@ import keyboard as kb
 import fileInput as fin
 
 # define variables
-infile = 'tas.json'
-keys = [ 'w', 'a', 'd', 'j', 'k' ]
+infile = 'tas_tut_total.json'
+keys = [ 'w', 'a', 'd', 'j', 'k', 's' ]
 wait = 'f'
 
 # game runs at 60 fps
