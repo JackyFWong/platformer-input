@@ -1,0 +1,170 @@
+[
+	{
+		"type" : "comment",
+		"cmd" : "level 2"
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "k"
+			}
+		],
+		"num" : 65
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 25,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 5,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "d"
+			},
+			{
+				"dur" : 1,
+				"key" : "k"
+			},
+			{
+				"dur" : 1,
+				"key" : "j"
+			}
+		],
+		"num" : 8
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "d"
+			},
+			{
+				"dur" : 10,
+				"key" : "s"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "a"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 50,
+				"key" : "s"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 6,
+				"key" : "d"
+			},
+			{
+				"dur" : 6,
+				"key" : "k"
+			},
+			{
+				"dur" : 1,
+				"key" : "j"
+			}
+		],
+		"num" : 6
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "d"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 1,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "comment",
+		"cmd" : "level 3"
+	}
+]

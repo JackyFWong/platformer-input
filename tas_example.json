@@ -1,0 +1,92 @@
+[
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "w"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "d"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "comment",
+		"cmd" : "this is a comment"
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "w"
+			},
+			{
+				"dur" : 180,
+				"key" : "a"
+			},
+			{
+				"dur" : 240,
+				"key" : "d"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 69,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 130,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 75,
+				"key" : "a"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "j"
+			},
+			{
+				"dur" : 180,
+				"key" : "w"
+			},
+			{
+				"dur" : 240,
+				"key" : "a"
+			}
+		],
+		"num" : 2
+	}
+]

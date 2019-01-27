@@ -5,7 +5,7 @@ import keyboard as kb
 import fileInput as fin
 
 # define variables
-infile = 'tas_tut_total.json'
+infile = 'tas_total.json'
 keys = [ 'w', 'a', 'd', 'j', 'k', 's' ]
 wait = 'f'
 

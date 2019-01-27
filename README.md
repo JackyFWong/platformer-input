@@ -2,6 +2,9 @@
 A Python program to parse a given JSON file to virtualize keyboard inputs.  
 Designed especially for a platformer running at 60 fps.
 
+Also includes TAS (tool assisted speedrun) json files for various stages in 
+[Dessert Dive](https://github.com/HarrisonHall/Dessert_Dive).
+
 Created in January 2019 for 
 ![CUhackit logo](https://cuhack.it/images/CUhackit_Combined_Logo_RGB_Color_STANDARD.svg "CUhackit 2019")
 
@@ -31,6 +34,8 @@ pip install keyboard
 ```
 If more than one pair of `dur` and `key` are added in the same `cmd`, they will be executed
 all at once, being de-pressed according to their number of frames respectively.
+
+`num` gives the number of times to execute the given list of keys.
 
 #### Credits
 Jacky Wong, Kaleb Chestnut

@@ -1,0 +1,72 @@
+[
+	{
+		"type" : "comment",
+		"cmd" : "this one works1"
+	},
+	{
+		"type" : "comment",
+		"cmd" : "level f2 begin"
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "f"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 150,
+				"key" : "d"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 200,
+				"key" : "d"
+			},
+			{
+				"dur" : 250,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 45,
+				"key" : "j"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 70,
+				"key" : "a"
+			},
+			{
+				"dur" : 70,
+				"key" : "k"
+			}
+		],
+		"num" : 1
+	},
+	{
+		"type" : "comment",
+		"cmd" : "level f2 end"
+	}
+]
