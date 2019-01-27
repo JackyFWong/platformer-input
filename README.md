@@ -1,5 +1,5 @@
 # platformer-input
-A Python program to parse a given JSON file to virtualize keyboard inputs.
+A Python program to parse a given JSON file to virtualize keyboard inputs.  
 Designed especially for a platformer running at 60 fps.
 
 Created in January 2019 for 
@@ -30,7 +30,7 @@ pip install keyboard
 ]
 ```
    If more than one pair of `dur` and `key` are added in the same `cmd`, they will be executed
-all at once, being de-pressed according to their number of frames respectively.
+   all at once, being de-pressed according to their number of frames respectively.
 
 #### Credits
 Jacky Wong, Kaleb Chestnut
