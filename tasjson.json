@@ -1,0 +1,50 @@
+[
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "w"
+			}
+		]
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 30,
+				"key" : "d"
+			}
+		]
+	},
+	{
+		"type" : "comment",
+		"cmd" : "this is a comment"
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
+				"dur" : 60,
+				"key" : "w"
+			},
+			{
+				"dur" : 180,
+				"key" : "a"
+			},
+			{
+				"dur" : 240,
+				"key" : "d"
+			}
+		]
+	},
+	{
+		"type": "key",
+		"cmd" : [
+			{
+				"dur" : 69,
+				"key" : "j"
+			}
+		]
+	}
+]
