@@ -15,7 +15,7 @@ def parse_file(filepath):
 			if conc["type"] == "key":
 				for keys in conc["cmd"]:
 					row.append([ keys["dur"], keys["key"] ])
-				data.append([conc["type"], row])
+				data.append([ conc["type"], row, conc["num"] ])
 
 			# comment being printed on console
 			elif conc["type"] == "comment":

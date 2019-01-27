@@ -1,5 +1,6 @@
 import sys
 import time
+import copy
 import keyboard as kb
 import fileInput as fin
 
@@ -50,12 +51,15 @@ def waitframes(frames):
 	time.sleep(to_frames(frames))
 
 if __name__ == '__main__':
-	filepath = 'tas.json'
+	filepath = infile
 	data = fin.parse_file(filepath)
 	for elem in data:
 		# action
 		if elem[0] == "key":
-			typekey(elem[1])
+			i = elem[2]
+			while i > 0:
+				typekey(copy.deepcopy(elem[1]))
+				i -= 1
 		# comment printed on console
 		elif elem[0] == "comment":
 			print(elem[1])
