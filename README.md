@@ -29,8 +29,8 @@ pip install keyboard
 	{	[more can be added, following the above format] }
 ]
 ```
-   If more than one pair of `dur` and `key` are added in the same `cmd`, they will be executed
-   all at once, being de-pressed according to their number of frames respectively.
+If more than one pair of `dur` and `key` are added in the same `cmd`, they will be executed
+all at once, being de-pressed according to their number of frames respectively.
 
 #### Credits
 Jacky Wong, Kaleb Chestnut

@@ -51,6 +51,15 @@
 		"type" : "key",
 		"cmd" : [
 			{
+				"dur" : 130,
+				"key" : "f"
+			}
+		]
+	},
+	{
+		"type" : "key",
+		"cmd" : [
+			{
 				"dur" : 75,
 				"key" : "a"
 			}
