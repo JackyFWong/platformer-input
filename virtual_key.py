@@ -48,7 +48,10 @@ def type_key(conc_keys):
 
 # sleep for a given num of frames
 def wait_frames(frames):
-        time.sleep(to_frames(frames))
+        wait = to_frames(frames)
+        target_time = time.clock() + wait
+        while time.clock() < target_time:
+                pass
 
 if __name__ == '__main__':
         filepath = infile
