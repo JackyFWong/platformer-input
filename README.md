@@ -14,6 +14,10 @@ Install [`keyboard`](https://github.com/boppreh/keyboard):
 pip install keyboard
 ```
 
+## Execution
+* Execute via `sudo python3 virtual_key.py [folder_name/file_name.json]`
+* Location for TAS json should go in a user-made appropriate game folder in `games`
+
 ## Formatting
 `type` gives the type of data that follows. Can only be either `key` or `comment`.
 
